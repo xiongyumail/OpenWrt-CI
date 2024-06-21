@@ -7,7 +7,7 @@ on:
 
 env:
   REPO_URL: https://github.com/xiongyumail/openwrt-6.x.git
-  REPO_BRANCH: kernel-6.8
+  REPO_BRANCH: main
   CONFIG_FILE: configs/x86-64.config
   PATCHES_FILE_1: patches/0003-add-coremark-luci.patch
   PATCHES_FILE_2: patches/0004-add-coremark-packages.patch
