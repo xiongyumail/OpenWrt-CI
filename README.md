@@ -19,9 +19,7 @@
 点击下表中 [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?style=flat&logo=)](https://github.com/xiongyumail/OpenWrt-CI/releases) 即可跳转到该设备固件下载页面
 | 平台+设备名称 | 固件编译状态 | 配置文件 | 固件下载 |
 | :-------------: | :-------------: | :-------------: | :-------------: |
-| [![](https://img.shields.io/badge/IPQ60XX-NOWIF-32C955.svg?logo=openwrt)](https://github.com/xiongyumail/OpenWrt-CI/blob/main/.github/workflows/IPQ60XX.yml) | [![](https://github.com/xiongyumail/OpenWrt-CI/actions/workflows/IPQ60XX.yml/badge.svg)](https://github.com/xiongyumail/OpenWrt-CI/actions/workflows/IPQ60XX-6.6.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/xiongyumail/OpenWrt-CI/blob/main/configs/ipq60xx.config) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/xiongyumail/OpenWrt-CI/releases/IPQ60XX) |
-| [![](https://img.shields.io/badge/IPQ60XX-WIFI-32C955.svg?logo=openwrt)](https://github.com/xiongyumail/OpenWrt-CI/blob/main/.github/workflows/IPQ60XX-WIFI.yml) | [![](https://github.com/xiongyumail/OpenWrt-CI/actions/workflows/IPQ60XX-WIFI.yml/badge.svg)](https://github.com/xiongyumail/OpenWrt-CI/actions/workflows/IPQ60XX-WIFI.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/xiongyumail/OpenWrt-CI/blob/main/configs/ipq60xx-wifi.config) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/xiongyumail/OpenWrt-CI/releases/IPQ60XX-WIFI) |
-| [![](https://img.shields.io/badge/IPQ60XX-WIFI(EMNC)-32C955.svg?logo=openwrt)](https://github.com/xiongyumail/OpenWrt-CI/blob/main/.github/workflows/IPQ60XX-WIFI(EMMC).yml) | [![](https://github.com/xiongyumail/OpenWrt-CI/actions/workflows/IPQ60XX-WIFI(EMMC).yml/badge.svg)](https://github.com/xiongyumail/OpenWrt-CI/actions/workflows/IPQ60XX-WIFI(EMMC).yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/xiongyumail/OpenWrt-CI/blob/main/configs/ipq60xx-wifi(emmc).config) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/xiongyumail/OpenWrt-CI/releases/IPQ60XX-WIFI(EMMC)) |
+| [![](https://img.shields.io/badge/IPQ60XX-ALL-32C955.svg?logo=openwrt)](https://github.com/xiongyumail/OpenWrt-CI/blob/main/.github/workflows/IPQ60XX-ALL.yml) | [![](https://github.com/xiongyumail/OpenWrt-CI/actions/workflows/IPQ60XX-ALL.yml/badge.svg)](https://github.com/xiongyumail/OpenWrt-CI/actions/workflows/IPQ60XX-ALL.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/xiongyumail/OpenWrt-CI/blob/main/configs/ipq60xx-all.config) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/xiongyumail/OpenWrt-CI/releases/IPQ60XX-ALL) 
 | [![](https://img.shields.io/badge/IPQ807X-WIFI-32C955.svg?logo=openwrt)](https://github.com/xiongyumail/OpenWrt-CI/blob/main/.github/workflows/IPQ807X-WIFI.yml) | [![](https://github.com/xiongyumail/OpenWrt-CI/actions/workflows/IPQ807X-WIFI.yml/badge.svg)](https://github.com/xiongyumail/OpenWrt-CI/actions/workflows/IPQ807X-WIFI.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/xiongyumail/OpenWrt-CI/blob/main/configs/ipq807x-wifi.config) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/xiongyumail/OpenWrt-CI/releases/IPQ807X-WIFI) |
 | [![](https://img.shields.io/badge/X86-64-32C955.svg?logo=openwrt)](https://github.com/xiongyumail/OpenWrt-CI/blob/main/.github/workflows/X86-64.yml) | [![](https://github.com/xiongyumail/OpenWrt-CI/actions/workflows/X86-64.yml/badge.svg)](https://github.com/xiongyumail/OpenWrt-CI/actions/workflows/X86-64.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/xiongyumail/OpenWrt-CI/blob/main/configs/x86-64.config) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/xiongyumail/OpenWrt-CI/releases/X86-64) |
 
@@ -55,8 +53,8 @@
 3. 下载源代码，更新 feeds 并安装到本地
 
    ```bash
-   git clone https://github.com/coolsnowwolf/lede
-   cd lede
+   git clone https://github.com/xiongyumail/openwrt-6.x
+   cd openwrt-6.x
    ./scripts/feeds update -a
    ./scripts/feeds install -a
    ```
@@ -81,4 +79,5 @@
 <a href="#readme">
 <img src="https://img.shields.io/badge/-返回顶部-FFFFFF.svg" title="返回顶部" align="right"/>
 </a>
+
 
