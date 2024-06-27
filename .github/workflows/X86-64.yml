@@ -6,7 +6,7 @@ on:
     - cron: 0 15 * * *
 
 env:
-  REPO_URL: https://github.com/xiongyumail/openwrt-6.x.git
+  REPO_URL: https://github.com/xiongyumail/openwrt.git
   REPO_BRANCH: main
   CONFIG_FILE: configs/x86-64.config
   PATCHES_FILE_1: patches/0003-add-coremark-luci.patch
