@@ -1,4 +1,4 @@
-name: X86-64
+name: X86-64-DOCKER
 
 on:
   workflow_dispatch:
